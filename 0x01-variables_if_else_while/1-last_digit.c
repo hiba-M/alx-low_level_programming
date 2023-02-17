@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* 
+/** 
  * main - find the last number whether greater than five
  * less than six or equal to zero
  * Return: Always 0
