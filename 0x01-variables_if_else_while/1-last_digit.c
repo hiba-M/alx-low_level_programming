@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/** 
+ * main - find the last number whether greater than five
+*  less than six
+* or equal to zero 
+* Return: Always 0
+*/
 int main(void)
 {
 	int n;
