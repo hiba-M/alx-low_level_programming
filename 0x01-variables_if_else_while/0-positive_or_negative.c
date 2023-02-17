@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main-Print whether the number given positive or negative
+/**
+ * main - Entry point
  *
- * Return: Always 0
-*/
+ * Description: 'show positive and negative num'
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
