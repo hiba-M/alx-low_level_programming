@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isalpha - check if chara is lower/upper case
+ * _isalpha - check if chara is lowercase or uppecase
  * @c: the character in ASCII code
- * Return : 1 if upper / lower else 0 (fail)
+ * Return: 1 if uppercase/lowercase else 0
  */
 int _isalpha(int c)
 {
