@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
- * Description: 'Two_digit seperate by comma'
+ * Description: 'print _putchar'
  * Return: Always 0 (Success)
  */
 int main(void)
