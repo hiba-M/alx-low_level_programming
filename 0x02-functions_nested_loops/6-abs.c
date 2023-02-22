@@ -2,17 +2,16 @@
 /**
  * _abs - the absolute value of n
  * @n: number given
- * Return: 0 (success)
+ * Return: n if positive else -n if negative
  */
 int _abs(int n)
 {
 	if (n >= 0)
 	{
-		_putchar(n);
+		return (n);
 	}
 	else
 	{
-		_putchar(-n);
+		return (-n);
 	}
-	return(0); 
 }
