@@ -9,7 +9,7 @@ void times_table(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		y=0;
+		y = 0;
 		_putchar(y + '0');
 		for (j = 1; j <= 9; j++)
 		{
