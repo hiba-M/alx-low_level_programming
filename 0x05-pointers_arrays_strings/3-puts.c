@@ -7,5 +7,16 @@
  */
 void _puts(char *str)
 {
-	fprintf(stdout, str);
+	int c =0;
+
+	while (c >= 0)
+	{
+		if (str[c] == '\0')
+		{
+			_putchar('\n');
+			break;
+		}
+		_putchar(str[c]);
+		c++;
+	}
 }
