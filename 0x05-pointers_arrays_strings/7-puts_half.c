@@ -13,8 +13,8 @@ void puts_half(char *str)
 		if (str[c] == '\0')
 		{
 			break;
-			c++;
 		}
+		c++;
 		if (c % 2 == 1)
 		{
 			i = c / 2;
