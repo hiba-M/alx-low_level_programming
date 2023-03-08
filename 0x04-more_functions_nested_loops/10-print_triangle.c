@@ -10,7 +10,7 @@ void print_triangle(int size)
 
 	if (size == 0)
 	{
-		printf("\n");
+		_putchar("\n");
 	}
 	else
 	{
@@ -19,13 +19,13 @@ void print_triangle(int size)
 			space = size - i;
 			for (j = 1; j <= space; j++)
 			{
-				printf(" ");
+				_putchar(" ");
 			}
 			for (k = 1; k <= i; k++)
 			{
-				printf("#");
+				_putchar("#");
 			}
-			printf("\n");
+			_putchar("\n");
 		}
 	}
 }
