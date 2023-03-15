@@ -1,31 +1,31 @@
 /*sum*/
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 #include <ctype.h>
+#include "main.h"
 /**
- * main - print the name of progress
- * @argv: number of argument
- * @argc: arrays of argument
- * Return: 0 (success) else 1
+ * main- program that adds positive numbers.
+ * @argc:number of command line
+ * @argv:array commande line
+ * Return:number
  */
 int main(int argc, char *argv[])
 {
-	int i, sum = 0;
+	int i, j, sum;
 
-	if (argc < 1)
-		return (0);
-
+	sum = 0;
 	for (i = 1; i < argc; i++)
 	{
-		if (!atoi(argv[i]))
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			printf("%s\n", "Error");
-			return (1);
+			if (!isdigit(argv[i][j]))
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
 		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
-
 	return (0);
 }
