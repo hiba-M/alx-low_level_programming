@@ -1,19 +1,23 @@
 #include "lists.h"
 
 /**
- * print_listint - Prints all elements of a list
+ * print_list - Prints all elements of a list
  * @h: Pointer to a list
  * Return:  nodes numb in the list
  */
-size_t print_listint(const listint_t *h)
+size_t print_list(const list_t *h)
 {
-	unsigned int c;
+	size_t c = 0;
 
-	if (h == NULL)
-		return (0);
-	for (c = 0; h != NULL; c++)
+
+	while (h != NULL)
 	{
-		printf("%d\n", h->n);
+		if (h->str == NULL)
+			printf("[0] (nil)\n");
+		else
+			printf("[%u] %s\n", h->len, h->str);
+
+		c++;
 		h = h->next;
 	}
 	return (c);
