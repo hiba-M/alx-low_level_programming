@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * natural_sqrt - look for natural square root 
+ * natural_sqrt - look for natural square root
  * @i: number to be compared
  * @n: number to check
  * Return: natural square root of num
@@ -15,7 +15,7 @@ int natural_sqrt(int i, int n)
 }
 /**
  * _sqrt_recursion - function that give the square of a num
- * @n: int given 
+ * @n: int given
  * Return: -1 in case of num isn't natural else gives the square root.
  */
 int _sqrt_recursion(int n)
