@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 /**
  * main - print the name of progress
  * @argv: arrays of argument
