@@ -16,7 +16,7 @@ char *_strdup(char *str)
 	else
 	{
 		cnt = 0;
-		while ( * (str + cnt) != '\0')
+		while ( *(str + cnt) != '\0')
 		{
 			cnt++;
 		}
@@ -30,7 +30,7 @@ char *_strdup(char *str)
 		{
 			for (i = 0; i <= cnt; i++)
 			{
-				dup[i] = str [i];
+				dup[i] = str[i];
 			}
 			return (dup);
 		}
