@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * alloc_grid - 2d array 
+ * alloc_grid - 2d array
  * @width: array colon
  * @height: array line
- * Return : pointer of array
+ * Return: pointer of array
  */
 int **alloc_grid(int width, int height)
 {
