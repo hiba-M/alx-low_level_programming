@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <string.h>
 #include "main.h"
 /**
  * str_concat - make 2 srt into one
