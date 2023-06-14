@@ -22,17 +22,17 @@ char *str_concat(char *s1, char *s2)
 	}
 	len = strlen(s1);
 	len += strlen(s2);
-	concat = malloc(sizeof(char) * len);
+	concat = malloc((sizeof(char) * len) + 1);
 	if (concat == NULL)
 	{
 		return (NULL);
 	}
 
-	for (i = 0; strlen(s1); ++i)
+	for (i = 0; s1[i]; ++i)
 	{
 		concat[i] = s1[i];
 	}
-	for (i = 0; strlen(s2); ++i)
+	for (i = 0; s2[i]; ++i)
 	{
 		concat[i] = s2[i];
 	}
