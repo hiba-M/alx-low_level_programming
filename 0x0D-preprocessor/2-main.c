@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
  * main - print the name of the file that was compiled..
- *
  * Return: Always 0 means Success.
- */
-int main()
+ **/
+int main(void)
 {
-    printf("Name of file: %s\n", __FILE__);
+	printf("Name of file: %s\n", __FILE__);
 
-    return (0);
+	return (0);
 }
